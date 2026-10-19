@@ -1,0 +1,91 @@
+body {
+    background-image:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+     url(calcbg2.avif);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+#collapse {
+    display: flex;
+     justify-content: center;
+}
+
+#displayscreen {
+    display: flex;
+    justify-content: left;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: monospace,sans-serif;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin-left: 8%;
+    margin-top: 90px;
+    width: 440px;
+    height: 120px;
+    color: black;
+    box-shadow: inset 1px 2px 15px grey;
+}
+#main {
+    border-radius: 35px;
+    box-shadow: inset 1px 2px 10px gray;
+    margin-top: 6px;
+    background-color:rgba(6, 6, 6, 0.877);
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 25px;
+    height: 800px;
+    width: 550px;
+    margin-left: 20px;
+}
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: rgba(7, 4, 58, 0.432);
+    width: 440px;
+    margin-left: 40px;
+}
+
+button {
+    height: 80px;
+    width: 90px;
+    border-radius: 70px;
+    font-size: 40px;
+    padding: -3px;
+    border: none;
+    transition: 0.3s;
+    background-color: hsl(0,0%, 70%) ;
+}
+button:hover {
+    height: 82px;
+    cursor: pointer;
+    width: 92px;
+    font-size: 42;
+box-shadow: 1px 1px 5px 1px lightgray;
+    background-color: hsl(0,0%, 80%);
+    
+    
+}
+button:active {
+    background-color: hsl(0,0%, 100%) 
+}
+.operator {
+    background-color: hsl(23, 100%, 60%);
+}
+.operator:hover {
+  background-color: hsl(23, 100%, 40%);  
+}
+.operator:active {
+  background-color: hsl(23, 100%, 70%);  
+}
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
